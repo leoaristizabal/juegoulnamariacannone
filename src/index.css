@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.subtitulo1{text-align: center;
+  color: #222;
+  margin-top: 2rem;
+  justify-content: center;
+
+  
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-top: 2rem;
+}
+
+.card-container,
+.quiz-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.flashcard {
+  padding: 2rem;
+  background: #e3f2fd;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.7rem 1.2rem;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background: #1565c0;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.question-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+}
