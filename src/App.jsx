@@ -5,6 +5,12 @@ import './index.css';
 function App() {
   return (
     <div>
+
+
+
+    
+    <div className='divHead'>
+      <img className='logoucv' src="./logo.svg" alt="" />
       <header className="student-header">
         <h2>Universidad Central de Venezuela</h2>
         <h3>Facultad de Medicina - Escuela Luis Razetti</h3>
@@ -12,7 +18,7 @@ function App() {
         <p>Cédula: V-31.455.085</p>
         <p>Unidad: 1 - Sistema Óseo (Ulna)</p>
       </header>
-
+    </div>
       <h1>Juego Educativo: Ulna</h1>
       <p className='subtitulo1'>Toca la pregunta para obtener la respuesta</p>
       <Flashcards />
