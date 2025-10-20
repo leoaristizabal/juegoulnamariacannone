@@ -15,7 +15,7 @@ function App() {
         <h2>Universidad Central de Venezuela</h2>
         <h3>Facultad de Medicina - Escuela Luis Razetti</h3>
         <p>Estudiante: Maria Vittoria Cannone S.</p>
-        <p>Cédula: V-31.455.085</p>
+        <p>Cédula: V-31.455.085 - Sección K</p>
         <p>Unidad: 1 - Sistema Óseo (Ulna)</p>
       </header>
     </div>
