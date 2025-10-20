@@ -12,13 +12,20 @@ const Flashcards = () => {
 
   return (
     <div className="card-container">
+      <h2 className="subtitulo2">Tarjeta {index + 1} de {flashcards.length}</h2>
+
       <div
-        className="flashcard"
+        className={`flashcard-inner ${showAnswer ? "flipped" : ""}`}
         onClick={() => setShowAnswer(!showAnswer)}
-        style={{ cursor: "pointer" }}
       >
-        {showAnswer ? flashcards[index].answer : flashcards[index].question}
+        <div className="flashcard front">
+          {flashcards[index].question}
+        </div>
+        <div className="flashcard back">
+          {flashcards[index].answer}
+        </div>
       </div>
+
       <button onClick={nextCard} className="btn">
         Siguiente
       </button>

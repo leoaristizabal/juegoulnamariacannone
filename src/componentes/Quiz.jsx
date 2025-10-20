@@ -2,30 +2,56 @@ import { useState } from "react";
 
 const questions = [
   {
-    question: "¿Qué estructura forma la parte más sobresaliente del codo?",
-    options: ["Apófisis coronoides", "Cabeza de la ulna", "Olécranon"],
-    answer: "Olécranon",
-    image: "/olecranon.jpg"
+    question: "¿Qué reparo anatómico se encuentra en la epífisis distal de la ulna?",
+    options: ["Apófisis coronoides", "Apófisis estiloides", "Escotadura Radial"],
+    answer: "Apófisis estiloides",
+    image: "/flexor.png"
+
   },
   {
-    question: "¿Cuál de estos músculos se inserta en la ulna?",
-    options: ["Bíceps braquial", "Tríceps braquial", "Deltoides"],
-    answer: "Tríceps braquial",
+    question: "¿El pronador cuadrado se origina en?",
+    options: ["Tercio distal de la cara anterior", "Tercio medio de la cara medial", "Tercio distal de la cara posterior"],
+    answer: "Tercio distal de la cara anterior",
     image: "/tricepbranquial.jpg"
   },
   {
-    question: "¿Dónde se origina el flexor profundo de los dedos?",
-    options: ["Radio distal", "Cara posterior del húmero", "Cara anterior de la ulna"],
-    answer: "Cara anterior de la ulna",
+    question: "¿Dónde está ubicado el olécranon?",
+    options: ["En la epífisis distal de la ulna.", "Parte superior de la ulna.", "Parte proximal y posterior de la ulna."],
+    answer: "Parte proximal y posterior de la ulna.",
+    image: "/olecranon.jpg"
+  },
+  {
+    question: "¿Dónde se articula la ulna con el húmero?",
+    options: ["En la escotadura troclear", "En la apófisis coronoides", "En el cuello de la ulna"],
+    answer: "En la escotadura troclear",
+    image: "/coronoide.png"
+  },
+  {
+    question: "¿Qué músculo se inserta en la apófisis coronoides de la ulna?",
+    options: ["Braquial", "Bíceps braquial", "Pronador redondo"],
+    answer: "Braquial",
     image: "/flexor.png"
   },
   {
-    question: "¿Qué es la apófisis coronoides?",
-    options: ["Una inserción del tríceps", "Una prominencia anterior de la ulna", "Una articulación con el carpo"],
-    answer: "Una prominencia anterior de la ulna",
-    image: "/coronoide.png"
+    question: "¿Qué parte de la ulna participa en la articulación radiocubital distal?",
+    options: ["Olécranon", "Escotadura troclear", "Cabeza de la ulna"],
+    answer: "Cabeza de la ulna",
+    image: "/tricepbranquial.jpg"
   },
+  {
+    question: "¿Cuál es la función principal de la ulna en el antebrazo?",
+    options: ["Permite la rotación del brazo", "Forma el eje fijo del antebrazo", "Se une con los huesos del carpo"],
+    answer: "Forma el eje fijo del antebrazo",
+    image: "/olecranon.jpg"
+  },
+  {
+    question: "El músculo braquial se inserta en…",
+    options: ["La apófisis estiloides", "Cresta y fosa del supinador", "Apófisis coronoides y parte adyacente de la tuberosidad de la ulna"],
+    answer: "Apófisis coronoides y parte adyacente de la tuberosidad de la ulna",
+    image: "/coronoide.png"
+  }
 ];
+
 
 
 const Quiz = () => {
