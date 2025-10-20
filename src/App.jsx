@@ -12,7 +12,6 @@ function App() {
         <p>Cédula: V-31.455.085</p>
         <p>Unidad: 1 - Sistema Óseo (Ulna)</p>
       </header>
-      <hr style={{ margin: '3rem 0' }} />
 
       <h1>Juego Educativo: Ulna</h1>
       <p className='subtitulo1'>Toca la pregunta para obtener la respuesta</p>

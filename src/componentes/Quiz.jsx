@@ -54,26 +54,27 @@ const Quiz = () => {
         </div>
       ) : (
         <div className="question-block">
-          <h3>{questions[current].question}</h3>
-          {questions[current].image && (
-            <img
-              src={questions[current].image}
-              alt="imagen de la pregunta"
-              className="question-image"
-            />
-          )}
-          <div className="options">
-            {questions[current].options.map((option, idx) => (
-              <button
-                key={idx}
-                className="btn"
-                onClick={() => handleAnswer(option)}
-              >
-                {option}
-              </button>
-            ))}
-          </div>
-        </div>
+  <h4>Puntaje: {score} / {questions.length}</h4> {/* <- Esto es nuevo */}
+  <h3>{questions[current].question}</h3>
+  {questions[current].image && (
+    <img
+      src={questions[current].image}
+      alt="Imagen de la pregunta"
+      className="question-image"
+    />
+  )}
+  <div className="options">
+    {questions[current].options.map((option, idx) => (
+      <button
+        key={idx}
+        className="btn"
+        onClick={() => handleAnswer(option)}
+      >
+        {option}
+      </button>
+    ))}
+  </div>
+</div>
       )}
     </div>
   );
