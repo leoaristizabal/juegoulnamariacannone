@@ -2,82 +2,114 @@ import { useState } from "react";
 
 const questions = [
   {
-    question: "¿Qué tipo de hueso es la ulna?",
-    options: ["Plano", "Corto", "Irregular", "Largo"],
-    answer: "Largo",
-    image: "/flexor.png"
+    question: "¿Qué reparo anatómico se encuentra en la epífisis distal de la ulna?",
+    options: [
+      "Apófisis coronoides",
+      "Olécranon",
+      "Cabeza de la ulna",
+      "Tuberosidad de la ulna"
+    ],
+    answer: "Cabeza de la ulna",
+    image: "/p1.jpeg"
   },
   {
-    question: "¿Qué estructura se palpa fácilmente en la parte posterior del codo cuando está flexionado?",
-    options: ["Apófisis estiloides", "Cabeza de la ulna", "Olécranon", "Tuberosidad de la ulna"],
-    answer: "Olécranon",
-    image: "/olecranon.jpg"
+    question: "¿Dónde se origina el pronador cuadrado?",
+    options: [
+      "En la cara anterior del cuarto distal de la ulna",
+      "En la cara posterior del radio",
+      "En la apófisis coronoides de la ulna",
+      "En el extremo proximal del húmero"
+    ],
+    answer: "En la cara anterior del cuarto distal de la ulna",
+    image: "/p2.jpeg"
   },
   {
-    question: "¿Qué músculo se inserta en la cara posterior del olécranon?",
-    options: ["Supinador", "Tríceps braquial", "Braquial", "Flexor profundo de los dedos"],
-    answer: "Tríceps braquial",
-    image: "/tricepbranquial.jpg"
+    question: "¿Dónde se ubica el olécranon?",
+    options: [
+      "En la epífisis distal de la ulna",
+      "En el extremo proximal y posterior de la ulna",
+      "En la cara medial del radio",
+      "En la diáfisis de la ulna"
+    ],
+    answer: "En el extremo proximal y posterior de la ulna",
+    image: "/p3.jpeg"
   },
   {
-    question: "¿Qué músculo se inserta en la cara anterior de la ulna, justo debajo del extremo proximal?",
-    options: ["Pronador redondo", "Extensor cubital del carpo", "Braquial", "Flexor radial del carpo"],
+    question: "¿Dónde se articula la ulna con el húmero?",
+    options: [
+      "En la incisura troclear",
+      "En la cabeza del radio",
+      "En la tróclea del radio",
+      "En el cóndilo lateral del húmero"
+    ],
+    answer: "En la incisura troclear",
+    image: "/p4.jpeg"
+  },
+  {
+    question: "¿Qué músculo se inserta en la apófisis coronoides de la ulna?",
+    options: [
+      "Pronador redondo",
+      "Braquial",
+      "Supinador",
+      "Bíceps braquial"
+    ],
     answer: "Braquial",
-    image: "/coronoide.png"
+    image: "/p5.jpeg"
   },
   {
-    question: "¿Qué parte de la ulna presenta la apófisis estiloides?",
-    options: ["Extremo distal", "Extremo proximal", "Cara anterior", "Borde lateral"],
-    answer: "Extremo distal",
-    image: "/flexor.png"
+    question: "¿Qué parte de la ulna participa en la articulación radiocubital distal?",
+    options: [
+      "Olécranon",
+      "Tuberosidad de la ulna",
+      "Cabeza de la ulna",
+      "Apófisis coronoides"
+    ],
+    answer: "Cabeza de la ulna",
+    image: "/p6.jpeg"
   },
   {
-    question: "¿Qué músculo se origina en la cara anterior del extremo distal de la ulna?",
-    options: ["Supinador", "Pronador cuadrado", "Extensor de los dedos", "Braquiorradial"],
-    answer: "Pronador cuadrado",
-    image: "/coronoide.png"
+    question: "¿Cuál es la función principal de la ulna en el brazo?",
+    options: [
+      "Permitir la rotación del antebrazo",
+      "Servir como hueso estabilizador del antebrazo",
+      "Ser el punto de inserción del bíceps braquial",
+      "Proteger el nervio radial"
+    ],
+    answer: "Servir como hueso estabilizador del antebrazo",
+    image: "/p7.jpeg"
   },
   {
-    question: "¿Qué parte de la ulna sirve de punto de inserción para el tríceps braquial?",
-    options: ["Olécranon", "Apófisis estiloides", "Tuberosidad de la ulna", "Cabeza de la ulna"],
-    answer: "Olécranon",
-    image: "/olecranon.jpg"
-  },
-  {
-    question: "¿Qué estructura se encuentra entre la apófisis coronoides y el olécranon?",
-    options: ["Fosa radial", "Escotadura troclear (superficie articular para el húmero)", "Cabeza de la ulna", "Apófisis estiloides"],
-    answer: "Escotadura troclear (superficie articular para el húmero)",
-    image: "/tricepbranquial.jpg"
-  },
-  {
-    question: "¿En qué extremo de la ulna se localiza la cabeza del hueso?",
-    options: ["Extremo proximal", "Extremo distal", "En el centro del cuerpo", "Ninguno de los anteriores"],
-    answer: "Extremo distal",
-    image: "/flexor.png"
-  },
-  {
-    question: "¿Qué tipo de superficie presenta la parte superior de la ulna para articularse con el húmero?",
-    options: ["Convexa", "Cóncava", "Plana", "Irregular"],
-    answer: "Cóncava",
-    image: "/coronoide.png"
-  },
-  {
-    question: "¿Qué accidente óseo marca el límite entre la diáfisis y la epífisis proximal de la ulna?",
-    options: ["Tuberosidad ulnar", "Escotadura radial", "Olécranon"],
-    answer: "Tuberosidad ulnar",
-    image: "/flexor.png"
+    question: "¿Dónde se inserta el músculo braquial?",
+    options: [
+      "En la tuberosidad y apófisis coronoides de la ulna",
+      "En la cabeza del radio",
+      "En la apófisis estiloides de la ulna",
+      "En el olécranon"
+    ],
+    answer: "En la tuberosidad y apófisis coronoides de la ulna",
+    image: "/p8.jpeg"
   },
   {
     question: "¿Cuáles son las caras de la ulna?",
-    options: ["Anterior, posterior y lateral", "Superior, inferior y medial", "Anterior, posterior y medial", "Medial, lateral y profunda"],
+    options: [
+      "Anterior, posterior y lateral",
+      "Superior, inferior y medial",
+      "Anterior, posterior y medial",
+      "Medial, lateral y profunda"
+    ],
     answer: "Anterior, posterior y medial",
-    image: "/olecranon.jpg"
+    image: "/p9.jpeg"
   },
   {
     question: "¿Cuál de los siguientes es un borde de la ulna?",
-    options: ["Borde intercondíleo", "Borde lateral", "Borde interóseo", "Borde transverso"],
+    options: [
+      "Borde intercondileo",
+      "Borde lateral",
+      "Borde interóseo",
+      "Borde transverso"
+    ],
     answer: "Borde interóseo",
-    image: "/tricepbranquial.jpg"
+    image: "/p10.jpeg"
   }
 ];
 
