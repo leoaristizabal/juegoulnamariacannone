@@ -1,34 +1,54 @@
 export const flashcards = [
   {
-    question: "¿Qué reparo anatómico se encuentra en la epífisis distal de la ulna?",
-    answer: "Apófisis estiloides"
+    question: "¿Qué tipo de hueso es la ulna?",
+    answer: "Largo"
   },
   {
-    question: "¿Dónde se origina el pronador cuadrado?",
-    answer: "En el tercio distal de la cara anterior de la ulna"
+    question: "¿Qué estructura se palpa fácilmente en la parte posterior del codo cuando está flexionado?",
+    answer: "Olécranon"
   },
   {
-    question: "¿Dónde está ubicado el olécranon?",
-    answer: "En la parte proximal y posterior de la ulna"
+    question: "¿Qué músculo se inserta en la cara posterior del olécranon?",
+    answer: "Tríceps braquial"
   },
   {
-    question: "¿Dónde se articula la ulna con el húmero?",
-    answer: "En la escotadura troclear"
+    question: "¿Qué músculo se inserta en la cara anterior de la ulna, justo debajo del extremo proximal?",
+    answer: "Braquial"
   },
   {
-    question: "¿Qué músculo se inserta en la apófisis coronoides de la ulna?",
-    answer: "El músculo braquial"
+    question: "¿Qué parte de la ulna presenta la apófisis estiloides?",
+    answer: "Extremo distal"
   },
   {
-    question: "¿Qué parte de la ulna participa en la articulación radiocubital distal?",
-    answer: "La cabeza de la ulna"
+    question: "¿Qué músculo se origina en la cara anterior del extremo distal de la ulna?",
+    answer: "Pronador cuadrado"
   },
   {
-    question: "¿Cuál es la función principal de la ulna en el antebrazo?",
-    answer: "Formar el eje fijo del antebrazo"
+    question: "¿Qué parte de la ulna sirve de punto de inserción para el tríceps braquial?",
+    answer: "Olécranon"
   },
   {
-    question: "¿Dónde se inserta el músculo braquial?",
-    answer: "En la apófisis coronoides y parte adyacente de la tuberosidad de la ulna"
+    question: "¿Qué estructura se encuentra entre la apófisis coronoides y el olécranon?",
+    answer: "Escotadura troclear (superficie articular para el húmero)"
+  },
+  {
+    question: "¿En qué extremo de la ulna se localiza la cabeza del hueso?",
+    answer: "Extremo distal"
+  },
+  {
+    question: "¿Qué tipo de superficie presenta la parte superior de la ulna para articularse con el húmero?",
+    answer: "Cóncava"
+  },
+  {
+    question: "¿Qué accidente óseo marca el límite entre la diáfisis y la epífisis proximal de la ulna?",
+    answer: "Tuberosidad ulnar"
+  },
+  {
+    question: "¿Cuáles son las caras de la ulna?",
+    answer: "Anterior, posterior y medial"
+  },
+  {
+    question: "¿Cuál de los siguientes es un borde de la ulna?",
+    answer: "Borde interóseo"
   }
 ];
